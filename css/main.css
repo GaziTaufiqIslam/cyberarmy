@@ -187,7 +187,7 @@ a{
 }
 
 .hidden{
-    transform: translateY(-100%);
+    transform: translateY(-160%);
 }
 
 /**** header****/
@@ -283,10 +283,7 @@ header .call-to-action{
 #testimonial{
     padding: 3rem 0;
 }
-#testimonial .row .col-3{
-    padding: 1rem;
-}
-#testimonial h5{
+#testimocoding-liquidsnial h5{
     padding: 1rem 0;
     font-weight: 400;
 }
