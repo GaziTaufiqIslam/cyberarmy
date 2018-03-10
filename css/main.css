@@ -491,10 +491,18 @@ font-weight: 500;
     header .container{
         padding: 8rem 0;
     }
+    #cap h2{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
     #cap{
       margin-top: 6rem;
     }
     #cap img{
         display: none;
+    }
+    .hero-img h2{
+      font-size: 2.25rem;
+      line-height: 2.5rem;
     }
 }
