@@ -29,7 +29,7 @@
         <div class="row">
           <div class="col-2">
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="index.php">Home</a></li>
               <li><a href="comingsoon.html">What We Do</a></li>
           <!--     <li><a href="comingsoon.html">Portfolio</a></li> -->
 
@@ -87,7 +87,7 @@
           <div class="row">
             <div class="form-element dropdown">
               <label for="service needed">Service Needed</label>
-              <select name="" id="select-choice">
+              <select name="options" id="select-choice">
                 <option value="Choice 1">None Selected</option>
                 <option value="Choice 1">Web Development</option>
                 <option value="Choice 2">App Development</option>
@@ -101,18 +101,18 @@
             <div class="row">
                 <div class="col-2">
                   <label for="budget lower end">Lower Value(&#8377)</label>
-                  <input type="text" name="budget lower value" placeholder="15000">
+                  <input type="text" name="budgetlv" placeholder="15000">
                 </div>
                 <div class="col-2">
                   <label for="budget upper end">Upper Value(&#8377)</label>
-                  <input type="text" name="budget upper value" placeholder="20000">
+                  <input type="text" name="budgetuv" placeholder="20000">
               </div>
             </div>
           </div>
           <div class="form-element">
             <div class="row">
               <label class="message-label" for="textarea">Message:</label>
-              <textarea name="Message" rows="4"  placeholder="Type Your Message"></textarea>
+              <textarea name="message" rows="4"  placeholder="Type Your Message"></textarea>
             </div>
           </div>
           <div class="row">
@@ -128,7 +128,7 @@
       <div class="row">
         <div class="col-3">
           <ul>
-            li><a href="comingsoon.html">Coding Liquids</a></li>
+            <li><a href="comingsoon.html">Coding Liquids</a></li>
             <li><a href="comingsoon.html">Portfolio</a></li>
             <li><a href="comingsoon.html">Team</a></li>
         </ul>
